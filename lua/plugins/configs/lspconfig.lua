@@ -66,5 +66,6 @@ require("lspconfig").lua_ls.setup {
 
 local nvim_lsp = require("lspconfig")
 nvim_lsp.tailwindcss.setup({})
+nvim_lsp.astro.setup({})
 
 return M

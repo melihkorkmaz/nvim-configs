@@ -286,7 +286,18 @@ local default_plugins = {
   },
   {
     "sbdchd/neoformat",
-    lazy = false
+    lazy = false,
+    config = function ()
+      vim.g.neoformat_try_node_exe = 1
+    end
+  },
+  {
+    "wuelnerdotexe/vim-astro",
+    lazy=false,
+    config = function()
+      vim.g.astro_typescript = true
+      vim.g.astro_stylus = true
+    end
   }
 }
 

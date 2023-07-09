@@ -49,6 +49,10 @@ M.general = {
     -- split screen
     ["<leader>vs"] = { "<cmd> vsplit <CR>", "Split window vertically"},
     ["<leader>vh"] = { "<cmd> split <CR>", "Split window horizontally"},
+
+    -- custom mapping
+    ["<C-u>"] = { "<C-u> zz" },
+    ["<C-d>"] = { "<C-d> zz" },
   },
 
   t = {
